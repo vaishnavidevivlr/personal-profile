@@ -1,0 +1,289 @@
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+<body><nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li>
+      <a href="#projects">My Projects</a>
+    </li>
+    <li>
+      <a href="#about">About Me</a>
+    </li>
+    <li>
+      <a href="#welcome-section">Back To Top</a>
+    </li>
+  </ul>
+</nav>
+
+<section id="welcome-section" class="welcome-section">
+  <!-- <div class="background">
+    <div class="transbox"> -->
+      <div>
+        
+        <div id="centered" class="topic"><p>Hey, i'm</p>
+         <h1>VAISHNAVI</h1>
+         <P>A programmer</P>
+        </div>
+      </div>
+   <!--  </div>
+  </div>
+   -->
+</section>
+  
+<hr style="width: 10%; border-style: groove;">
+<!--display tiles of proects  -->
+<section id="projects">
+  <div>
+    <br>
+    <br>
+    <br>  
+    <h2>Here are some of my projects</h2>
+
+      <div class="wrapper">
+          <div class="project-tile" >
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div>  <strong>TRIBUTE PAGE</strong></div>
+              </div>
+              <div class="flip-card-back">
+                 <a href="https://codepen.io/vijaybalaji1222/full/abNQjBm" target="_blank">  <em>The tribute page is about Vishwanadhan Anand 5 time world champion in chess.</em></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-tile">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div>   <strong>SURVEY PAGE</strong></div>
+              </div>
+              <div class="flip-card-back">
+                 <a href="https://codepen.io/vijaybalaji1222/full/PoNVrjJ" target="_blank"><em>This project is an example of social media signup form, that includes checkboxed, radio and other input types.</em></a>
+              </div>
+            </div>
+          </div>          
+          <div class="project-tile">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div> <strong> PRODUCT LANDING PAGE</strong></div>
+              </div>
+              <div class="flip-card-back">
+                 <a href="https://codepen.io/vijaybalaji1222/full/ZEWZRZa" target="_blank">This page is an example of E-shopping site, that contains various products and pricing.</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-tile">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div> <strong>TECHNICAL DOCUMENTATION</strong></div>
+              </div>
+              <div class="flip-card-back">
+                 <a href="https://codepen.io/vijaybalaji1222/full/zYqXQEd" target="_blank"> Technical documentation of a programming language(JavaScript /JS) and examples of using code is shown here</a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+  </div>
+  <span id="note">hover on each projects and click on the description to open project in new tab</span><br>
+  <br>
+  <span style="font-size: 1.5rem;">Projects shown above use plain html and css</span>
+</section>
+  <br>
+
+<hr style="width: 10%; border-style: groove;">
+  
+
+<section id="about">
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="detail"><h2><strong>About Me</strong></h2>
+  Hello there! I'm an <em>vaishnavi</em>.I write efficient codes, I solve complex problems. That's what I mostly do. If I impressed you enough to work with me ping me on <br> 
+    📞:+91 9566377400
+    <div class="social">
+      <a class="ico" href="https://github.com/vaishnavidevivlr/"><img src="https://img.icons8.com/nolan/128/github.png"/></a><div style="visibility: hidden;">_______</div>
+      
+    </div>
+  </div> 
+  
+</section>
+<footer>
+  <a class ='cert' href="https://www.freecodecamp.org/certification/vaishnavi-15/responsive-web-design"> RESPONSIVE WEB DESIGER CERTIFICATION</a> <br>
+  <a class='cert'  href="https://www.freecodecamp.org/certification/vaishnavi-15/responsive-web-design"> JAVASCRIPT ALGORITHM AND DATA STRUCTURES CERTIFICATION</a>
+</footer>
+ </body>
+
+
+
+<style>html{
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+  margin: 5%;
+  line-height: 1.5;
+}
+body  {
+  background-image: url("https://i.postimg.cc/HWbkBHPz/Untitled.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+}
+h2{
+  font-family: 'Sansita Swashed', cursive;
+}
+.topic{
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 2rem;
+}
+*{
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+a {
+color: white;
+text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  margin: 0px;
+}
+.nav-list {
+  display: flex;
+  margin: 0px;
+}
+
+@media (max-width: 28.75em) {
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+.nav-list a {
+  display: block;
+  font-size: 1.8rem;
+  padding: 1rem;
+  background-color: rgba(47, 84, 143,0.5);
+}
+.nav-list a:hover {
+  background: rgba(47, 84, 143, 0.9);
+  color: black;
+}
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
+ #welcome-section {
+  position: relative;
+  text-align: center;
+  color:black;
+}
+#centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.detail
+{
+/*  background-image: url("https://i.postimg.cc/SxpsHv1S/Untitled-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+  background-color: rgba(47, 84, 143, 0.8);
+  background-position: center;
+  padding: 2%;
+}
+.project-tile {
+  background-color: transparent;
+  width: 20%;
+  height: 200px;
+  margin:3%;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.4s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  font-size:1.5vw;
+}
+
+.project-tile:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 7%;
+
+}
+
+.flip-card-front {
+  background-color: rgba(47, 84, 143, 0.8);
+  color: black;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.project-tile a{
+  text-decoration:none;
+  color:white;
+}
+.flip-card-back {
+  background-color: rgba(47, 84, 143,0.8);
+  color: white;
+  transform: rotateY(180deg);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.wrapper{
+  display:flex;
+  margin:3px;
+}
+#note{
+	display: flex;
+	justify-content: center;
+	color: rgba(6,6,6, 0.5);
+}
+#about{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  text-align: justify;
+  height: 100%;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+ 
+
+}
+.ico:hover{
+  background-color: rgba(0,40, 10, 0.5);
+}
+.cert{
+  color: black;
+}
+</style>
